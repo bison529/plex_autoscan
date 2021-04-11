@@ -10,6 +10,9 @@ from copy import copy
 
 import requests
 
+reload(sys)
+sys.setdefaultencoding("utf-8")
+
 try:
     from urlparse import urljoin
 except ImportError:
